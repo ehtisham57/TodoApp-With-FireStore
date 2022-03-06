@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+.body{
+    background: linear-gradient(0.95turn, #3f87a68c, #a09f9f98, #8b1c1ca8);
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.todoMain{
+    align-items: center;
+    justify-content: center;
+    padding: 70px 60px;
+}
+.main{
+    background-color: #555555a8;
+    padding: 30px;
+}
+
+
+.main input,.main input:focus,.main input:hover{
+    background: linear-gradient(0.75turn, #3f87a68c, #22222298, #565555a8);
+    border: none;
+    outline: none;
+    margin-right: 10px;
+    color: aquamarine;
+}
+button{
+    padding: 10px;
+    margin:0 15px;
+    text-transform: capitalize;
+    transition: all .9s !important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button:hover{
+    color: beige !important;
+    background-color: black !important;
+}
+.todoList{ 
+    background: linear-gradient(0.55turn, #3f87a68c, #00000098, #565555a8);
+    border: #22222298 1px solid;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 10px;
+}
+.todoList>h3{
+    padding: 10px;
+    color: rgb(2, 2, 2);
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-break: break-all;
+
+}
